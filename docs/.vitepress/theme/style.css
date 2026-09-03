@@ -1,0 +1,113 @@
+:root {
+  --vp-c-brand-1: #38d99b;
+  --vp-c-brand-2: #2fb985;
+  --vp-c-brand-3: #238960;
+  --vp-c-bg: #0b1020;
+  --vp-c-bg-alt: #10182b;
+  --vp-c-bg-elv: #151f35;
+  --vp-c-bg-soft: #111a2f;
+  --vp-c-text-1: #edf5ff;
+  --vp-c-text-2: #bdcce2;
+  --vp-c-divider: #25334f;
+  --vp-code-block-bg: #091426;
+  --vp-code-color: #edf5ff;
+  --vp-code-line-highlight-color: #132744;
+  --vp-code-line-number-color: #7f91ad;
+  --vp-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --vp-font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+.VPNavBar {
+  background: color-mix(in srgb, var(--vp-c-bg) 86%, transparent);
+  backdrop-filter: blur(18px);
+}
+
+.VPHomeHero {
+  position: relative;
+  overflow: hidden;
+  min-height: calc(100svh - var(--vp-nav-height));
+  display: grid;
+  align-items: center;
+}
+
+.VPHomeHero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(#1b2944 1px, transparent 1px), linear-gradient(90deg, #1b2944 1px, transparent 1px);
+  background-size: 52px 52px;
+  mask-image: linear-gradient(to bottom, black, transparent 76%);
+  opacity: .48;
+}
+
+.VPHomeHero .container { z-index: 1; }
+.VPHomeHero .name { letter-spacing: -.075em; }
+.VPHomeHero .text { max-width: 760px; letter-spacing: -.045em; }
+.VPHomeHero .tagline { max-width: 560px; }
+.VPHomeHero .image-container { transform: translateY(-3%); animation: orbit-in .8s ease-out both; }
+.VPHomeHero .image-bg { background: radial-gradient(circle, #38d99b33, transparent 66%); }
+
+.temday-proof {
+  max-width: 1152px;
+  margin: 0 auto 112px;
+  padding: 0 24px;
+}
+
+.temday-proof-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.temday-proof-grid > div { padding: 28px 28px 30px 0; }
+.temday-proof-grid > div + div { border-left: 1px solid var(--vp-c-divider); padding-left: 28px; }
+.temday-proof-kicker { color: var(--vp-c-brand-1); font: 700 12px/1 var(--vp-font-family-mono); letter-spacing: .1em; text-transform: uppercase; }
+.temday-proof strong { display: block; margin: 12px 0 8px; font-size: 25px; letter-spacing: -.04em; }
+.temday-proof p { margin: 0; color: var(--vp-c-text-2); }
+
+.VPContent .content-container { max-width: 840px; }
+.VPDoc h1 { letter-spacing: -.05em; }
+.VPDoc h2 { margin-top: 56px; letter-spacing: -.035em; }
+.VPDoc a { text-underline-offset: 3px; }
+
+/* Keep prose on the inky surface, but lift code into a clearly bounded,
+   high-contrast layer. Shiki supplies a dedicated dark palette via force-dark. */
+.VPDoc div[class*='language-'] {
+  border: 1px solid #29466c;
+  border-radius: 10px;
+  box-shadow: inset 0 1px #ffffff0d;
+}
+
+.VPDoc :not(pre) > code {
+  color: #d6ffef;
+  background: #123229;
+  border: 1px solid #246046;
+}
+
+.VPDoc div[class*='language-'] code {
+  color: #edf5ff;
+  font-weight: 500;
+}
+
+.VPDoc div[class*='language-'] .line {
+  color: #dbe8fa;
+}
+.VPHomeHero .VPButton.alt { border-color: #38d99b80; color: #8bf0c7; background: #38d99b18; }
+.VPHomeHero .VPButton.alt:hover { border-color: #38d99b; color: #07130e; background: #38d99b; }
+
+@keyframes orbit-in { from { opacity: 0; transform: translateY(22px) rotate(-8deg); } to { opacity: 1; transform: translateY(-3%) rotate(0); } }
+
+@media (min-width: 960px) {
+  .VPHomeHero .image .image-container { width: 420px; height: 420px; transform: translate(-18px, -3%); }
+  .VPHomeHero .image .image-bg { width: 450px; height: 450px; }
+  .VPHomeHero .image .image-src { width: 360px !important; height: 360px !important; max-width: none !important; max-height: none !important; }
+}
+
+@media (max-width: 640px) {
+  .VPHomeHero { min-height: calc(100svh - var(--vp-nav-height)); }
+  .temday-proof { margin-bottom: 72px; padding: 0 24px; }
+  .temday-proof-grid { grid-template-columns: 1fr; }
+  .temday-proof-grid > div + div { border-left: 0; border-top: 1px solid var(--vp-c-divider); padding-left: 0; }
+}

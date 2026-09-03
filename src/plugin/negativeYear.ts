@@ -1,0 +1,5 @@
+import type { DateState, Plugin } from '../types.js';
+const invalid = (timeZone: string): DateState => ({ value: null, valid: false, timeZone });
+/** Parses compact negative years such as `-1-01-01`, normalising to Temporal's year field. */
+const negativeYear: Plugin = (_option, _Temday, _factory, runtime) => { runtime.addParser((input, _format, _locale, _strict, timeZone = 'UTC') => { if (typeof input !== 'string') return undefined; const match = /^-(\d{1,6})-(\d\d)-(\d\d)(?:T(\d\d)(?::(\d\d)(?::(\d\d)(?:\.(\d{1,3}))?)?)?)?$/.exec(input); if (!match) return undefined; try { const T = (globalThis as any).Temporal; return { value: T.ZonedDateTime.from({ year: -Number(match[1]), month: Number(match[2]), day: Number(match[3]), hour: Number(match[4] ?? 0), minute: Number(match[5] ?? 0), second: Number(match[6] ?? 0), millisecond: Number((match[7] ?? '').padEnd(3, '0')), timeZone }, { overflow: 'reject' }), valid: true, timeZone }; } catch { return invalid(timeZone); } }); };
+export default negativeYear;

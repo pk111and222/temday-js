@@ -1,0 +1,80 @@
+{
+  "name": "temday",
+  "version": "1.0.0",
+  "description": "Temporal- and Intl-native date library",
+  "unpkg": "./dist/umd/core.umd.min.js",
+  "jsdelivr": "./dist/umd/core.umd.min.js",
+  "packageManager": "pnpm@11.16.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./context": {
+      "types": "./dist/context.d.ts",
+      "import": "./dist/context.js",
+      "require": "./dist/context.cjs"
+    },
+    "./polyfill": {
+      "types": "./dist/polyfill.d.ts",
+      "import": "./dist/polyfill.js",
+      "require": "./dist/polyfill.cjs"
+    },
+    "./full": {
+      "types": "./dist/full.d.ts",
+      "import": "./dist/full.js",
+      "require": "./dist/full.cjs"
+    },
+    "./umd/*": {
+      "default": "./dist/umd/*.umd.min.js"
+    },
+    "./plugin/*": {
+      "types": "./dist/plugin/*.d.ts",
+      "import": "./dist/plugin/*.js",
+      "require": "./dist/plugin/*.cjs"
+    },
+    "./locale/*": {
+      "types": "./dist/locale/*.d.ts",
+      "import": "./dist/locale/*.js",
+      "require": "./dist/locale/*.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": [
+    "./dist/polyfill.js",
+    "./dist/polyfill.cjs"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "rslib build && node scripts/cjs-default.mjs && node scripts/umd-artifacts.mjs && tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "rstest --coverage",
+    "test:docs": "pnpm --dir docs build",
+    "test:watch": "rstest --watch",
+    "test:package": "node scripts/package-smoke.mjs",
+    "docs:dev": "pnpm --dir docs dev",
+    "docs:build": "pnpm --dir docs build",
+    "verify": "pnpm typecheck && pnpm test && pnpm test:package && pnpm docs:build",
+    "prepublishOnly": "pnpm verify",
+    "bench": "pnpm build && node scripts/benchmark.mjs"
+  },
+  "devDependencies": {
+    "@js-temporal/polyfill": "0.5.1",
+    "@rslib/core": "0.23.2",
+    "@rstest/core": "^0.11.11",
+    "@rstest/coverage-v8": "^0.11.11",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+dist/
+coverage/
+.rslib/
+docs/.vitepress/cache/
+.playwright-cli/
+.vscode/
