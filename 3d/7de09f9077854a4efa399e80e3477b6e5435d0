@@ -1,0 +1,23 @@
+.github/workflows/release.yml
+  s_c2ad6faa02db89::t_3cfd966929bc95 18
+.github/workflows/ci.yml
+  s_c2ad6faa02db89::t_3cfd966929bc95 24
+.github/workflows/docs.yml
+  s_c2ad6faa02db89::t_3cfd966929bc95 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "3d7de09f9077854a4efa399e80e3477b6e5435d0",
+  "prompts": {},
+  "sessions": {
+    "s_c2ad6faa02db89": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06571-94b3-7681-a34a-07079aafcb8c",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "pk111and222 <pk111and222@sina.cn>"
+    }
+  }
+}
