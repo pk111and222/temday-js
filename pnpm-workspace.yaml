@@ -4,5 +4,5 @@ packages:
 
 # VitePress and Rslib require esbuild's platform binary installation script.
 # Keep the build-script allowlist minimal for reproducible CI installs.
-onlyBuiltDependencies:
-  - esbuild
+allowBuilds:
+  esbuild: true
