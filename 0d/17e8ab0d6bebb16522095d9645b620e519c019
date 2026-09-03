@@ -1,0 +1,19 @@
+pnpm-workspace.yaml
+  s_c2ad6faa02db89::t_1e0c377fe67b56 4-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "0d17e8ab0d6bebb16522095d9645b620e519c019",
+  "prompts": {},
+  "sessions": {
+    "s_c2ad6faa02db89": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06571-94b3-7681-a34a-07079aafcb8c",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "pk111and222 <pk111and222@sina.cn>"
+    }
+  }
+}
