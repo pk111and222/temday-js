@@ -1,0 +1,204 @@
+docs/zh/parsing/default.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 7
+  s_c2ad6faa02db89::t_aa2950156d1f34 6,8-11,99,164,183
+docs/zh/index.md
+  s_c2ad6faa02db89::t_513f6e1c98c5ce 5,26
+docs/reference/core-api.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 6
+docs/plugins/index.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6,12,28,33
+docs/zh/display/relative-time.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6,42
+docs/parsing/input-support.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 8,20,32
+docs/zh/manipulation/immutable.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 16,34
+docs/guide/package-entries.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 8-13,26,34,44
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 18
+docs/reference/compatibility.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 24,39
+docs/zh/guide/typescript.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 10
+  s_c2ad6faa02db89::t_aa2950156d1f34 34
+docs/zh/plugins/locale-data.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/parsing/hooks.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 8,23
+docs/zh/plugins/index.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6,12,28,35,46,51
+docs/zh/parsing/input-support.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 8,21,33
+docs/zh/plugins/localized-format.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6-7
+docs/zh/plugins/min-max.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/zh/timezone/plugins.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 9,39
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 8
+package.json
+  s_c2ad6faa02db89::t_513f6e1c98c5ce 2
+docs/zh/plugins/parser-pipeline.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/zh/plugins/utc.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/parsing/default.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 7,9-11
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 8
+docs/zh/examples/index.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 21,35,47-48
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 8,20
+docs/zh/plugins/array-support.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/index.md
+  s_c2ad6faa02db89::t_513f6e1c98c5ce 5
+docs/zh/query/plugins.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6-9,46
+docs/zh/guide/installation.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 7,10,13,16,22,26
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 3,23
+docs/examples/index.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 21,35,47-48
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 8,20
+docs/zh/manipulation/extensions.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6,27,43-45
+docs/zh/display/index.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 75,85
+docs/guide/typescript.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 34
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 10
+docs/zh/plugins/week-of-year.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/display/relative-time.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6,30
+docs/zh/parsing/custom-parse-format.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 7
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 6
+docs/package.json
+  s_c2ad6faa02db89::t_513f6e1c98c5ce 2
+docs/manipulation/immutable.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 16,34
+docs/query/plugins.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6-9,46
+docs/zh/timezone/index.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/get-set/calendar.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6-11
+docs/parsing/custom-parse-format.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 6
+  s_c2ad6faa02db89::t_aa2950156d1f34 7
+docs/zh/guide/why-temday.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 29-30
+docs/zh/plugins/more.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 8-12,27-31,49-52,69,82-85
+docs/zh/plugins/object-support.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/.vitepress/config.ts
+  s_c2ad6faa02db89::t_513f6e1c98c5ce 6
+docs/zh/reference/core-api.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 6
+docs/zh/plugins/calendar.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+scripts/package-smoke.mjs
+  s_c2ad6faa02db89::t_aa2950156d1f34 20-26,30
+docs/zh/plugins/bad-mutable.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/guide/getting-started.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 8,18
+  s_c2ad6faa02db89::t_aa2950156d1f34 17
+docs/plugins/more.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 8-12,25-29,45-47
+docs/zh/installation/browser.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 8,80
+  s_c2ad6faa02db89::t_aa2950156d1f34 18-19,30,33,42-43,54,57,63,79,86,90
+docs/guide/installation.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 3,23
+  s_c2ad6faa02db89::t_aa2950156d1f34 7,10,13,16,22
+docs/zh/get-set/calendar.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6-11
+docs/zh/plugins/duration.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+CONTRIBUTING.md
+  s_c2ad6faa02db89::t_513f6e1c98c5ce 1
+docs/guide/why-temday.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 23-24
+docs/zh/parsing/hooks.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 8,23
+docs/zh/plugins/relative-time.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/display/i18n.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 11,31,81
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 10
+docs/zh/plugins/advanced-format.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/installation/node.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 9,19,24
+  s_c2ad6faa02db89::t_aa2950156d1f34 8,18
+docs/get-set/projections.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6-9
+docs/zh/guide/package-entries.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 8-13,26,36,46
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 18
+docs/zh/plugins/timezone.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6-7
+docs/zh/plugins/token-registry.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+README.md
+  s_c2ad6faa02db89::t_513f6e1c98c5ce 1,3,21
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 6,16
+  s_c2ad6faa02db89::t_aa2950156d1f34 15,19
+docs/zh/plugins/is-between.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/zh/plugins/quarter-of-year.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/timezone/index.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+docs/zh/guide/getting-started.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 8,18
+  s_c2ad6faa02db89::t_aa2950156d1f34 17
+docs/zh/display/plugins.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 8
+  s_c2ad6faa02db89::t_aa2950156d1f34 9,24,35,46
+docs/zh/reference/compatibility.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 43,50,66
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 67
+docs/manipulation/extensions.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6,25
+docs/zh/plugins/iso-week.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+scripts/cjs-default.mjs
+  s_c2ad6faa02db89::t_7a4292507d88cb 4
+docs/display/plugins.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 8,18,23,34
+docs/installation/browser.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 18-19,29,38,41,50-51,58
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 8
+docs/timezone/plugins.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 4-5
+docs/zh/display/i18n.md
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 10,89
+  s_c2ad6faa02db89::t_aa2950156d1f34 11,32,90-91
+docs/zh/installation/node.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 8,18
+  s_c2ad6faa02db89::t_eac3eaa64e6d46 9,19,24
+docs/zh/get-set/projections.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6-9
+docs/zh/plugins/custom-parse-format.md
+  s_c2ad6faa02db89::t_aa2950156d1f34 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "bd168ceb9937a9835b191d4ba31a7e0803842a4d",
+  "prompts": {},
+  "sessions": {
+    "s_c2ad6faa02db89": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06571-94b3-7681-a34a-07079aafcb8c",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "pk111and222 <pk111and222@sina.cn>"
+    }
+  }
+}
