@@ -3,7 +3,7 @@
 根工厂使用宿主时区。需要稳定、隔离的时区语义时，创建 Context 工厂。
 
 ```ts
-import { createTemday } from 'temday/context';
+import { createTemday } from 'temday-js/context';
 
 const newYork = createTemday({ timeZone: 'America/New_York' });
 const before = newYork('2024-03-10T01:30:00');

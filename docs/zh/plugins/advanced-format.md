@@ -3,7 +3,7 @@
 启用季度、序数与 epoch 等高级格式 token。
 
 ```ts
-import advancedFormat from 'temday/plugin/advancedFormat';
+import advancedFormat from 'temday-js/plugin/advancedFormat';
 
 temday.extend(advancedFormat);
 temday('2026-08-31').format('Q Do k kk X x');

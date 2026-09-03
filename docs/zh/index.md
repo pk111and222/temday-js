@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: temday
+  name: temday-js
   text: 面向现代 JavaScript 的日期 API。
   tagline: 基于 Temporal 的不可变日期 API，使用 Intl 进行国际化和格式化，保留 dayjs 的风格方法。
   image:

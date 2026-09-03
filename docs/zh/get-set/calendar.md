@@ -3,12 +3,12 @@
 周、ISO 周、季度和年内日序号都是独立插件，按需安装即可。
 
 ```ts
-import weekOfYear from 'temday/plugin/weekOfYear';
-import isoWeek from 'temday/plugin/isoWeek';
-import quarterOfYear from 'temday/plugin/quarterOfYear';
-import weekYear from 'temday/plugin/weekYear';
-import weekday from 'temday/plugin/weekday';
-import dayOfYear from 'temday/plugin/dayOfYear';
+import weekOfYear from 'temday-js/plugin/weekOfYear';
+import isoWeek from 'temday-js/plugin/isoWeek';
+import quarterOfYear from 'temday-js/plugin/quarterOfYear';
+import weekYear from 'temday-js/plugin/weekYear';
+import weekday from 'temday-js/plugin/weekday';
+import dayOfYear from 'temday-js/plugin/dayOfYear';
 
 temday.extend(weekOfYear).extend(isoWeek).extend(quarterOfYear);
 temday.extend(weekYear).extend(weekday).extend(dayOfYear);

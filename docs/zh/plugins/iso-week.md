@@ -3,7 +3,7 @@
 提供 ISO-8601 周、周几与 ISO 年周数。
 
 ```ts
-import isoWeek from 'temday/plugin/isoWeek';
+import isoWeek from 'temday-js/plugin/isoWeek';
 
 temday.extend(isoWeek);
 temday('2021-01-04').isoWeek(); // 1

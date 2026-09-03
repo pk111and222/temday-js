@@ -3,7 +3,7 @@
 为当前 factory 添加洋葱式解析中间件。
 
 ```ts
-import parserPipeline from 'temday/plugin/parserPipeline';
+import parserPipeline from 'temday-js/plugin/parserPipeline';
 
 temday.extend(parserPipeline);
 temday.addParser((context, next) => {

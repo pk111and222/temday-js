@@ -20,8 +20,8 @@ temday.isTemday(temday());
 ## Optional plugins
 
 ```ts
-import localeData from 'temday/plugin/localeData';
-import isBetween from 'temday/plugin/isBetween';
+import localeData from 'temday-js/plugin/localeData';
+import isBetween from 'temday-js/plugin/isBetween';
 
 temday.extend(localeData, { locale: 'zh-CN' }).extend(isBetween);
 ```

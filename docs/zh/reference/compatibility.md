@@ -40,14 +40,14 @@ temday 使用 `Intl` provider，而不是随包发布 Day.js 风格的 locale �
 
 ```ts
 // Day.js 写法；temday 不提供
-require('temday/locale/zh-cn');
+require('temday-js/locale/zh-cn');
 temday.locale('zh-cn'); // 不能用语言包名全局注册
 ```
 
 请安装 `localeData`，并在实例或 Context 上选择 BCP 47 语言标签：
 
 ```ts
-import localeData from 'temday/plugin/localeData';
+import localeData from 'temday-js/plugin/localeData';
 
 temday.extend(localeData);
 temday('2026-08-31').locale('zh-CN').format('MMMM');
@@ -63,8 +63,8 @@ temday('2026-08-31').localeData().months();
 Day.js 可以在浏览器全局变量上直接加载每一个 UMD 插件；temday 的插件是模块入口：
 
 ```ts
-import utc from 'temday/plugin/utc';
-import temday from 'temday';
+import utc from 'temday-js/plugin/utc';
+import temday from 'temday-js';
 
 temday.extend(utc);
 ```

@@ -4,11 +4,11 @@ The default parser accepts native values and ISO-shaped input. Format strings,
 objects, and arrays are opt-in. This single example covers every input in this section.
 
 ```ts
-import 'temday/polyfill';
-import temday from 'temday';
-import customParseFormat from 'temday/plugin/customParseFormat';
-import objectSupport from 'temday/plugin/objectSupport';
-import arraySupport from 'temday/plugin/arraySupport';
+import 'temday-js/polyfill';
+import temday from 'temday-js';
+import customParseFormat from 'temday-js/plugin/customParseFormat';
+import objectSupport from 'temday-js/plugin/objectSupport';
+import arraySupport from 'temday-js/plugin/arraySupport';
 
 temday.extend(customParseFormat).extend(objectSupport).extend(arraySupport);
 

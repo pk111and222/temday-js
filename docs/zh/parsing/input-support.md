@@ -5,7 +5,7 @@
 ## 对象输入 {#object-input}
 
 ```ts
-import objectSupport from 'temday/plugin/objectSupport';
+import objectSupport from 'temday-js/plugin/objectSupport';
 
 temday.extend(objectSupport);
 
@@ -18,7 +18,7 @@ temday({ y: 2026, M: 7, D: 31, h: 13, m: 4 });
 ## 数组输入 {#array-input}
 
 ```ts
-import arraySupport from 'temday/plugin/arraySupport';
+import arraySupport from 'temday-js/plugin/arraySupport';
 
 temday.extend(arraySupport);
 temday([2026, 7, 31, 13, 4, 5, 6]);
@@ -30,7 +30,7 @@ temday([2026, 7, 31, 13, 4, 5, 6]);
 ## bigint 时间戳
 
 ```ts
-import bigIntSupport from 'temday/plugin/bigIntSupport';
+import bigIntSupport from 'temday-js/plugin/bigIntSupport';
 
 temday.extend(bigIntSupport);
 temday(1_788_181_445_000n);

@@ -3,7 +3,7 @@
 提供 `from`、`to`、`fromNow` 与 `toNow`。
 
 ```ts
-import relativeTime from 'temday/plugin/relativeTime';
+import relativeTime from 'temday-js/plugin/relativeTime';
 
 temday.extend(relativeTime);
 temday('2026-08-03').from('2026-08-01'); // in 2 days

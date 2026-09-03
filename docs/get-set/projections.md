@@ -3,10 +3,10 @@
 These lightweight plugins are useful for forms and serialization.
 
 ```ts
-import toArray from 'temday/plugin/toArray';
-import toObject from 'temday/plugin/toObject';
-import pluralGetSet from 'temday/plugin/pluralGetSet';
-import isLeapYear from 'temday/plugin/isLeapYear';
+import toArray from 'temday-js/plugin/toArray';
+import toObject from 'temday-js/plugin/toObject';
+import pluralGetSet from 'temday-js/plugin/pluralGetSet';
+import isLeapYear from 'temday-js/plugin/isLeapYear';
 
 temday.extend(toArray).extend(toObject).extend(pluralGetSet).extend(isLeapYear);
 ```

@@ -5,7 +5,7 @@
 ## PreParsePostFormat
 
 ```ts
-import preParsePostFormat from 'temday/plugin/preParsePostFormat';
+import preParsePostFormat from 'temday-js/plugin/preParsePostFormat';
 
 temday.extend(preParsePostFormat, {
   preparse: (input) => input.replaceAll('.', '-'),
@@ -20,7 +20,7 @@ temday('2026.08.31').format('YYYY-MM-DD'); // 2026/08/31
 ## ParserPipeline
 
 ```ts
-import parserPipeline from 'temday/plugin/parserPipeline';
+import parserPipeline from 'temday-js/plugin/parserPipeline';
 
 temday.extend(parserPipeline);
 temday.addParser((context, next) => {

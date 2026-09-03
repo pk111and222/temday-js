@@ -3,7 +3,7 @@
 把实例语言与宿主 `Intl` 连接起来，不随 temday 打包任何语言表。
 
 ```ts
-import localeData from 'temday/plugin/localeData';
+import localeData from 'temday-js/plugin/localeData';
 
 temday.extend(localeData, { locale: 'zh-CN' });
 temday('2026-08-31').format('MMMM dddd');

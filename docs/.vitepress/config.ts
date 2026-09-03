@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 const base = process.env.DOCS_BASE ?? '/';
 
 export default defineConfig({
-  title: 'temday',
+  title: 'temday-js',
   description: 'Temporal-native date handling with a compact Day.js-compatible core.',
   base,
   cleanUrls: true,

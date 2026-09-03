@@ -3,13 +3,13 @@
 Import a plugin and install it before calling the API it adds:
 
 ```ts
-import isBetween from 'temday/plugin/isBetween';
+import isBetween from 'temday-js/plugin/isBetween';
 
 temday.extend(isBetween);
 temday('2026-08-31').isBetween('2026-08-01', '2026-09-01');
 ```
 
-Install a plugin once per factory. A factory created with `temday/context` has its own installed-plugin set.
+Install a plugin once per factory. A factory created with `temday-js/context` has its own installed-plugin set.
 
 ## Common APIs
 
@@ -25,12 +25,12 @@ Install a plugin once per factory. A factory created with `temday/context` has i
 | Accept object, array, or bigint input | `objectSupport`, `arraySupport`, `bigIntSupport` |
 | Serialize a value | `toArray`, `toObject` |
 
-Every plugin is available at `temday/plugin/<name>`. See [more plugins](/plugins/more) for the remaining helpers and examples.
+Every plugin is available at `temday-js/plugin/<name>`. See [more plugins](/plugins/more) for the remaining helpers and examples.
 
 ## Token registry
 
 ```ts
-import tokenRegistry from 'temday/plugin/tokenRegistry';
+import tokenRegistry from 'temday-js/plugin/tokenRegistry';
 
 temday.extend(tokenRegistry);
 temday.addToken({

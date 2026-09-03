@@ -3,7 +3,7 @@
 提供季度的读取与赋值。
 
 ```ts
-import quarterOfYear from 'temday/plugin/quarterOfYear';
+import quarterOfYear from 'temday-js/plugin/quarterOfYear';
 
 temday.extend(quarterOfYear);
 temday('2026-08-31').quarter(); // 3

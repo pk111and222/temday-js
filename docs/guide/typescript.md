@@ -7,7 +7,7 @@ temday includes its TypeScript declarations. Do not install `@types/temday`.
 Use the default import:
 
 ```ts
-import temday, { type Temday } from 'temday';
+import temday, { type Temday } from 'temday-js';
 
 const release: Temday = temday('2026-08-31');
 release.add(1, 'day').format('YYYY-MM-DD');
@@ -31,7 +31,7 @@ For Node.js projects, `"module": "NodeNext"` and `"moduleResolution": "NodeNext"
 Import each plugin from its own entry, then install it before use. The import also adds its method declarations.
 
 ```ts
-import isBetween from 'temday/plugin/isBetween';
+import isBetween from 'temday-js/plugin/isBetween';
 
 temday.extend(isBetween);
 temday('2026-08-31').isBetween('2026-08-01', '2026-09-01');

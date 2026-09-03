@@ -13,7 +13,7 @@ next.format('YYYY-MM-DD');  // 2026-09-01
 ## Maximum {#maximum}
 
 ```ts
-import minMax from 'temday/plugin/minMax';
+import minMax from 'temday-js/plugin/minMax';
 
 temday.extend(minMax);
 
@@ -31,7 +31,7 @@ temday.min('2026-08-31', '2026-08-01').format('YYYY-MM-DD'); // 2026-08-01
 ## BadMutable（可变兼容模式）
 
 ```ts
-import badMutable from 'temday/plugin/badMutable';
+import badMutable from 'temday-js/plugin/badMutable';
 
 temday.extend(badMutable);
 

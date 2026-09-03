@@ -5,7 +5,7 @@
 When the host already supplies `globalThis.Temporal`, import temday directly:
 
 ```ts
-import temday from 'temday';
+import temday from 'temday-js';
 
 temday('2026-08-31').add(1, 'day').format('YYYY-MM-DD');
 // 2026-09-01
@@ -14,8 +14,8 @@ temday('2026-08-31').add(1, 'day').format('YYYY-MM-DD');
 For environments without Temporal, temday exposes an opt-in bundled fallback:
 
 ```ts
-import 'temday/polyfill';
-import temday from 'temday';
+import 'temday-js/polyfill';
+import temday from 'temday-js';
 ```
 
 The polyfill entry never overwrites an existing `globalThis.Temporal`.

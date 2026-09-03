@@ -5,7 +5,7 @@ Optional display capability stays outside the root bundle.
 ## LocaleData
 
 ```ts
-import localeData from 'temday/plugin/localeData';
+import localeData from 'temday-js/plugin/localeData';
 
 temday.extend(localeData, { locale: 'zh-CN' });
 
@@ -15,12 +15,12 @@ temday('2026-08-31').locale('zh-CN');
 temday('2026-08-31').format('YYYY-MMMM-DD[ day ]');
 ```
 
-Data comes from host `Intl`, not bundled locale files. `localeData()` returns the active provider. For a custom provider, import `createIntlLocaleProvider` from `temday/locale/intl` or supply your own provider function.
+Data comes from host `Intl`, not bundled locale files. `localeData()` returns the active provider. For a custom provider, import `createIntlLocaleProvider` from `temday-js/locale/intl` or supply your own provider function.
 
 ## LocalizedFormat
 
 ```ts
-import localizedFormat from 'temday/plugin/localizedFormat';
+import localizedFormat from 'temday-js/plugin/localizedFormat';
 
 temday.extend(localizedFormat);
 temday('2026-08-31T13:04').format('L LT LLLL');
@@ -31,7 +31,7 @@ temday('2026-08-31T13:04').format('L LT LLLL');
 ## AdvancedFormat
 
 ```ts
-import advancedFormat from 'temday/plugin/advancedFormat';
+import advancedFormat from 'temday-js/plugin/advancedFormat';
 
 temday.extend(advancedFormat);
 temday('2026-08-31T13:04:05Z').format('Do Q k kk X x');

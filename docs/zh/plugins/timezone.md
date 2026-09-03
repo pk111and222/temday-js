@@ -3,8 +3,8 @@
 提供 IANA 时区转换与指定时区解析。
 
 ```ts
-import timezone from 'temday/plugin/timezone';
-import customParseFormat from 'temday/plugin/customParseFormat';
+import timezone from 'temday-js/plugin/timezone';
+import customParseFormat from 'temday-js/plugin/customParseFormat';
 
 temday.extend(customParseFormat).extend(timezone);
 temday('2026-08-31T12:00:00Z').tz('Asia/Shanghai').format('Z'); // +08:00

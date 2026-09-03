@@ -3,8 +3,8 @@
 格式字符串解析是独立插件；不使用它的应用不会把解析器打进根包。
 
 ```ts
-import temday from 'temday';
-import customParseFormat from 'temday/plugin/customParseFormat';
+import temday from 'temday-js';
+import customParseFormat from 'temday-js/plugin/customParseFormat';
 
 temday.extend(customParseFormat);
 

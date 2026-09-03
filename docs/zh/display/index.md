@@ -72,7 +72,7 @@ temday('2026-08-31T12:00:00Z').toString();
 安装 `toArray` 插件后可使用 `toArray()`；它返回 `[year, month, date, hour, minute, second, millisecond]`，月份为零基。
 
 ```ts
-import toArray from 'temday/plugin/toArray';
+import toArray from 'temday-js/plugin/toArray';
 temday.extend(toArray);
 temday('2026-08-31T12:34:56.789').toArray();
 ```
@@ -82,7 +82,7 @@ temday('2026-08-31T12:34:56.789').toArray();
 安装 `toObject` 插件后可使用 `toObject()`；它返回命名的年、月、日和时间字段。
 
 ```ts
-import toObject from 'temday/plugin/toObject';
+import toObject from 'temday-js/plugin/toObject';
 temday.extend(toObject);
 temday('2026-08-31T12:34:56.789').toObject();
 ```

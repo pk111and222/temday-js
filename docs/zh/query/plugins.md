@@ -3,10 +3,10 @@
 只有在需要时才安装查询辅助插件；它们不会进入核心包。
 
 ```ts
-import isBetween from 'temday/plugin/isBetween';
-import isSameOrAfter from 'temday/plugin/isSameOrAfter';
-import isSameOrBefore from 'temday/plugin/isSameOrBefore';
-import isToday from 'temday/plugin/isToday';
+import isBetween from 'temday-js/plugin/isBetween';
+import isSameOrAfter from 'temday-js/plugin/isSameOrAfter';
+import isSameOrBefore from 'temday-js/plugin/isSameOrBefore';
+import isToday from 'temday-js/plugin/isToday';
 
 temday.extend(isBetween)
   .extend(isSameOrAfter)
@@ -43,7 +43,7 @@ today.isSameOrAfter('2026-09-01', 'day');
 ## Is Leap Year {#is-leap-year}
 
 ```ts
-import isLeapYear from 'temday/plugin/isLeapYear';
+import isLeapYear from 'temday-js/plugin/isLeapYear';
 
 temday.extend(isLeapYear);
 temday('2024-02-29').isLeapYear(); // true

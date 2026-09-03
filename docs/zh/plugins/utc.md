@@ -3,7 +3,7 @@
 提供 UTC factory、UTC 实例、回到本地时区和固定 offset。
 
 ```ts
-import utc from 'temday/plugin/utc';
+import utc from 'temday-js/plugin/utc';
 
 temday.extend(utc);
 temday.utc('2026-08-31T12:00').isUTC(); // true

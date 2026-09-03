@@ -3,7 +3,7 @@
 为非 ISO 字符串提供格式化解析，且不进入根包。
 
 ```ts
-import customParseFormat from 'temday/plugin/customParseFormat';
+import customParseFormat from 'temday-js/plugin/customParseFormat';
 
 temday.extend(customParseFormat);
 temday('31/08/2026', 'DD/MM/YYYY').format('YYYY-MM-DD'); // 2026-08-31

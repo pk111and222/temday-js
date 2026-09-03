@@ -3,7 +3,7 @@
 为需要原地更新的模块提供的兼容插件。新代码不应安装它。
 
 ```ts
-import badMutable from 'temday/plugin/badMutable';
+import badMutable from 'temday-js/plugin/badMutable';
 
 temday.extend(badMutable);
 const value = temday('2026-08-31');

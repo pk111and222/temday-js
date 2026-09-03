@@ -13,7 +13,7 @@ next.format('YYYY-MM-DD');  // 2026-09-01
 ## Maximum {#maximum}
 
 ```ts
-import minMax from 'temday/plugin/minMax';
+import minMax from 'temday-js/plugin/minMax';
 
 temday.extend(minMax);
 
@@ -31,7 +31,7 @@ Invalid values are ignored. If no valid input remains, the result is invalid.
 ## BadMutable compatibility mode
 
 ```ts
-import badMutable from 'temday/plugin/badMutable';
+import badMutable from 'temday-js/plugin/badMutable';
 
 temday.extend(badMutable);
 

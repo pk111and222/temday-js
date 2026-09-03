@@ -26,8 +26,8 @@ temday.isTemday(temday());
 内置多套复杂功能插件，同时支持自定义插件和上下文。
 
 ```ts
-import localeData from 'temday/plugin/localeData';
-import isBetween from 'temday/plugin/isBetween';
+import localeData from 'temday-js/plugin/localeData';
+import isBetween from 'temday-js/plugin/isBetween';
 
 temday.extend(localeData, { locale: 'zh-CN' }).extend(isBetween);
 ```

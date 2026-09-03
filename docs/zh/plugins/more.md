@@ -5,11 +5,11 @@
 ## 比较与周
 
 ```ts
-import isBetween from 'temday/plugin/isBetween';
-import isSameOrAfter from 'temday/plugin/isSameOrAfter';
-import isSameOrBefore from 'temday/plugin/isSameOrBefore';
-import weekday from 'temday/plugin/weekday';
-import weekYear from 'temday/plugin/weekYear';
+import isBetween from 'temday-js/plugin/isBetween';
+import isSameOrAfter from 'temday-js/plugin/isSameOrAfter';
+import isSameOrBefore from 'temday-js/plugin/isSameOrBefore';
+import weekday from 'temday-js/plugin/weekday';
+import weekYear from 'temday-js/plugin/weekYear';
 
 temday.extend(isBetween).extend(isSameOrAfter).extend(isSameOrBefore);
 temday.extend(weekday).extend(weekYear);
@@ -24,11 +24,11 @@ temday('2026-08-31').weekYear();
 ## 输入与投影
 
 ```ts
-import objectSupport from 'temday/plugin/objectSupport';
-import arraySupport from 'temday/plugin/arraySupport';
-import bigIntSupport from 'temday/plugin/bigIntSupport';
-import toArray from 'temday/plugin/toArray';
-import toObject from 'temday/plugin/toObject';
+import objectSupport from 'temday-js/plugin/objectSupport';
+import arraySupport from 'temday-js/plugin/arraySupport';
+import bigIntSupport from 'temday-js/plugin/bigIntSupport';
+import toArray from 'temday-js/plugin/toArray';
+import toObject from 'temday-js/plugin/toObject';
 
 temday.extend(objectSupport).extend(arraySupport).extend(bigIntSupport);
 temday.extend(toArray).extend(toObject);
@@ -46,10 +46,10 @@ temday('2026-08-31').toObject();
 ## MinMax、Locale 与文本变换
 
 ```ts
-import minMax from 'temday/plugin/minMax';
-import localeData from 'temday/plugin/localeData';
-import updateLocale from 'temday/plugin/updateLocale';
-import preParsePostFormat from 'temday/plugin/preParsePostFormat';
+import minMax from 'temday-js/plugin/minMax';
+import localeData from 'temday-js/plugin/localeData';
+import updateLocale from 'temday-js/plugin/updateLocale';
+import preParsePostFormat from 'temday-js/plugin/preParsePostFormat';
 
 temday.extend(minMax).extend(localeData).extend(updateLocale);
 temday.min('2026-08-31', '2026-08-30');
@@ -66,7 +66,7 @@ temday.extend(preParsePostFormat, {
 ## BadMutable
 
 ```ts
-import badMutable from 'temday/plugin/badMutable';
+import badMutable from 'temday-js/plugin/badMutable';
 
 temday.extend(badMutable);
 
@@ -79,10 +79,10 @@ value.add(1, 'day') === value; // true
 ## 额外常用兼容入口
 
 ```ts
-import isLeapYear from 'temday/plugin/isLeapYear';
-import dayOfYear from 'temday/plugin/dayOfYear';
-import pluralGetSet from 'temday/plugin/pluralGetSet';
-import buddhistEra from 'temday/plugin/buddhistEra';
+import isLeapYear from 'temday-js/plugin/isLeapYear';
+import dayOfYear from 'temday-js/plugin/dayOfYear';
+import pluralGetSet from 'temday-js/plugin/pluralGetSet';
+import buddhistEra from 'temday-js/plugin/buddhistEra';
 
 temday.extend(isLeapYear).extend(dayOfYear);
 temday.extend(pluralGetSet).extend(buddhistEra);

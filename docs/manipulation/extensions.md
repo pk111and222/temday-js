@@ -3,7 +3,7 @@
 ## Duration
 
 ```ts
-import duration from 'temday/plugin/duration';
+import duration from 'temday-js/plugin/duration';
 
 temday.extend(duration);
 
@@ -22,7 +22,7 @@ Input can be a number and unit, an object, or an ISO-8601 duration string. A dur
 ## Calendar labels
 
 ```ts
-import calendar from 'temday/plugin/calendar';
+import calendar from 'temday-js/plugin/calendar';
 
 temday.extend(calendar);
 

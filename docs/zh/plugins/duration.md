@@ -3,7 +3,7 @@
 创建、计算和格式化时长；时长入口不进入核心日期包。
 
 ```ts
-import duration from 'temday/plugin/duration';
+import duration from 'temday-js/plugin/duration';
 
 temday.extend(duration);
 temday.duration({ hour: 1, minute: 30 }).as('minute'); // 90

@@ -3,7 +3,7 @@
 ## Duration
 
 ```ts
-import duration from 'temday/plugin/duration';
+import duration from 'temday-js/plugin/duration';
 
 temday.extend(duration);
 
@@ -24,7 +24,7 @@ temday.duration('P2DT3H').toISOString();  // P2DT3H
 ## Calendar
 
 ```ts
-import calendar from 'temday/plugin/calendar';
+import calendar from 'temday-js/plugin/calendar';
 
 temday.extend(calendar);
 
@@ -40,9 +40,9 @@ temday('2026-09-01').calendar('2026-08-31', {
 ## 周与季度
 
 ```ts
-import weekOfYear from 'temday/plugin/weekOfYear';
-import isoWeek from 'temday/plugin/isoWeek';
-import quarterOfYear from 'temday/plugin/quarterOfYear';
+import weekOfYear from 'temday-js/plugin/weekOfYear';
+import isoWeek from 'temday-js/plugin/isoWeek';
+import quarterOfYear from 'temday-js/plugin/quarterOfYear';
 
 temday.extend(weekOfYear).extend(isoWeek).extend(quarterOfYear);
 

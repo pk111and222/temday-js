@@ -3,8 +3,8 @@
 启用 `L`、`LL`、`LLL`、`LLLL` 等本地化格式别名；需先安装 `localeData`。
 
 ```ts
-import localeData from 'temday/plugin/localeData';
-import localizedFormat from 'temday/plugin/localizedFormat';
+import localeData from 'temday-js/plugin/localeData';
+import localizedFormat from 'temday-js/plugin/localizedFormat';
 
 temday.extend(localeData, { locale: 'zh-CN' }).extend(localizedFormat);
 temday('2026-08-31T13:04').format('LLLL');

@@ -5,11 +5,11 @@ These independent plugins add optional APIs. Install only the behavior your appl
 ## Comparisons and weeks
 
 ```ts
-import isBetween from 'temday/plugin/isBetween';
-import isSameOrAfter from 'temday/plugin/isSameOrAfter';
-import isSameOrBefore from 'temday/plugin/isSameOrBefore';
-import weekday from 'temday/plugin/weekday';
-import weekYear from 'temday/plugin/weekYear';
+import isBetween from 'temday-js/plugin/isBetween';
+import isSameOrAfter from 'temday-js/plugin/isSameOrAfter';
+import isSameOrBefore from 'temday-js/plugin/isSameOrBefore';
+import weekday from 'temday-js/plugin/weekday';
+import weekYear from 'temday-js/plugin/weekYear';
 
 temday.extend(isBetween).extend(isSameOrAfter).extend(isSameOrBefore);
 temday.extend(weekday).extend(weekYear);
@@ -22,11 +22,11 @@ Sunday when no locale provider is installed.
 ## Input and projections
 
 ```ts
-import objectSupport from 'temday/plugin/objectSupport';
-import arraySupport from 'temday/plugin/arraySupport';
-import bigIntSupport from 'temday/plugin/bigIntSupport';
-import toArray from 'temday/plugin/toArray';
-import toObject from 'temday/plugin/toObject';
+import objectSupport from 'temday-js/plugin/objectSupport';
+import arraySupport from 'temday-js/plugin/arraySupport';
+import bigIntSupport from 'temday-js/plugin/bigIntSupport';
+import toArray from 'temday-js/plugin/toArray';
+import toObject from 'temday-js/plugin/toObject';
 
 temday.extend(objectSupport).extend(arraySupport).extend(bigIntSupport);
 temday.extend(toArray).extend(toObject);
@@ -42,9 +42,9 @@ accepts safe epoch-millisecond values.
 ## Locale updates and mutable compatibility
 
 ```ts
-import localeData from 'temday/plugin/localeData';
-import updateLocale from 'temday/plugin/updateLocale';
-import badMutable from 'temday/plugin/badMutable';
+import localeData from 'temday-js/plugin/localeData';
+import updateLocale from 'temday-js/plugin/updateLocale';
+import badMutable from 'temday-js/plugin/badMutable';
 
 temday.extend(localeData).extend(updateLocale);
 temday.updateLocale('en', { weekStart: 1, yearStart: 4 });

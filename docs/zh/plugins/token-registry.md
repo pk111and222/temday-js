@@ -3,7 +3,7 @@
 为当前 factory 注册自定义格式 token；最长 token 优先匹配。
 
 ```ts
-import tokenRegistry from 'temday/plugin/tokenRegistry';
+import tokenRegistry from 'temday-js/plugin/tokenRegistry';
 
 temday.extend(tokenRegistry);
 temday.addToken({ token: 'FY', format: (value) => `FY${value.year()}` });

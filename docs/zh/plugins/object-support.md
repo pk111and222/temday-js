@@ -3,7 +3,7 @@
 让 factory 接受 temday 风格对象输入。
 
 ```ts
-import objectSupport from 'temday/plugin/objectSupport';
+import objectSupport from 'temday-js/plugin/objectSupport';
 
 temday.extend(objectSupport);
 temday({ year: 2026, month: 7, date: 31, hour: 12 });

@@ -3,7 +3,7 @@
 提供范围比较与开闭区间控制。
 
 ```ts
-import isBetween from 'temday/plugin/isBetween';
+import isBetween from 'temday-js/plugin/isBetween';
 
 temday.extend(isBetween);
 temday('2026-08-31').isBetween('2026-08-01', '2026-09-01'); // true

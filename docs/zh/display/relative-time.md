@@ -3,7 +3,7 @@
 ## Time from now {#from-now}
 
 ```ts
-import relativeTime from 'temday/plugin/relativeTime';
+import relativeTime from 'temday-js/plugin/relativeTime';
 
 temday.extend(relativeTime);
 
@@ -39,7 +39,7 @@ temday('2026-08-01').to('2026-08-03'); // in 2 days
 ## Calendar-time {#calendar-time}
 
 ```ts
-import calendar from 'temday/plugin/calendar';
+import calendar from 'temday-js/plugin/calendar';
 
 temday.extend(calendar);
 

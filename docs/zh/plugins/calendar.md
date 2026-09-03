@@ -3,7 +3,7 @@
 为日期生成相对日历文案。
 
 ```ts
-import calendar from 'temday/plugin/calendar';
+import calendar from 'temday-js/plugin/calendar';
 
 temday.extend(calendar);
 temday('2026-08-31T13:04').calendar('2026-08-31'); // Today at 13:04

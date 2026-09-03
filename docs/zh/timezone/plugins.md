@@ -5,8 +5,8 @@
 ## UTC {#utc}
 
 ```ts
-import temday from 'temday';
-import utc from 'temday/plugin/utc';
+import temday from 'temday-js';
+import utc from 'temday-js/plugin/utc';
 
 temday.extend(utc);
 
@@ -36,7 +36,7 @@ temday('2026-08-31T12:00:00Z').utcOffset(480);
 ## IANA Timezone
 
 ```ts
-import timezone from 'temday/plugin/timezone';
+import timezone from 'temday-js/plugin/timezone';
 
 temday.extend(timezone);
 

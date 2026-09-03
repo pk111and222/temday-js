@@ -21,7 +21,7 @@ temday('1970-00-00', 'YYYY-MM-DD').isValid(); // false
 
 ## Internationalization
 
-temday uses `Intl` providers rather than shipping Day.js-style locale modules. There is no `temday/locale/zh-cn`, browser locale UMD, or static `temday.months()`, `temday.weekdays()`, and `temday.localeData()` helpers.
+temday uses `Intl` providers rather than shipping Day.js-style locale modules. There is no `temday-js/locale/zh-cn`, browser locale UMD, or static `temday.months()`, `temday.weekdays()`, and `temday.localeData()` helpers.
 
 Install `localeData` and use BCP 47 tags on an instance or Context:
 
@@ -36,7 +36,7 @@ temday('2026-08-31').locale('zh-CN').localeData().months();
 Plugins are module entry points, not standalone global UMD plugin files:
 
 ```ts
-import utc from 'temday/plugin/utc';
+import utc from 'temday-js/plugin/utc';
 temday.extend(utc);
 ```
 

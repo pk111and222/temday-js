@@ -7,7 +7,7 @@ temday 自带 TypeScript 类型声明。
 使用默认导入：
 
 ```ts
-import temday, { type Temday } from 'temday';
+import temday, { type Temday } from 'temday-js';
 
 const release: Temday = temday('2026-08-31');
 release.add(1, 'day').format('YYYY-MM-DD');
@@ -31,7 +31,7 @@ Node.js 项目建议使用 `"module": "NodeNext"` 和 `"moduleResolution": "Node
 从独立入口导入插件，并在使用前安装。导入插件后，对应实例方法会获得类型提示。
 
 ```ts
-import isBetween from 'temday/plugin/isBetween';
+import isBetween from 'temday-js/plugin/isBetween';
 
 temday.extend(isBetween);
 temday('2026-08-31').isBetween('2026-08-01', '2026-09-01');

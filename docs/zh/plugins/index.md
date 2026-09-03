@@ -3,13 +3,13 @@
 导入插件后，在调用其新增 API 前安装：
 
 ```ts
-import isBetween from 'temday/plugin/isBetween';
+import isBetween from 'temday-js/plugin/isBetween';
 
 temday.extend(isBetween);
 temday('2026-08-31').isBetween('2026-08-01', '2026-09-01');
 ```
 
-同一个插件在同一工厂只会安装一次。`temday/context` 创建的工厂拥有独立插件状态。
+同一个插件在同一工厂只会安装一次。`temday-js/context` 创建的工厂拥有独立插件状态。
 
 ## 常用 API
 
@@ -25,14 +25,14 @@ temday('2026-08-31').isBetween('2026-08-01', '2026-09-01');
 | 接受对象、数组或 bigint 输入 | `objectSupport`、`arraySupport`、`bigIntSupport` |
 | 序列化值 | `toArray`、`toObject` |
 
-所有插件都使用 `temday/plugin/<name>` 导入。其余插件和示例见 [更多插件](/zh/plugins/more)。
+所有插件都使用 `temday-js/plugin/<name>` 导入。其余插件和示例见 [更多插件](/zh/plugins/more)。
 
 ## Parser Pipeline
 
 需要在解析前后处理结果的插件，可安装洋葱管线：
 
 ```ts
-import parserPipeline from 'temday/plugin/parserPipeline';
+import parserPipeline from 'temday-js/plugin/parserPipeline';
 
 temday.extend(parserPipeline);
 temday.addParser((context, next) => {
@@ -43,12 +43,12 @@ temday.addParser((context, next) => {
 });
 ```
 
-每个 `temday/context` 工厂有自己的 middleware 列表。
+每个 `temday-js/context` 工厂有自己的 middleware 列表。
 
 ## Token Registry
 
 ```ts
-import tokenRegistry from 'temday/plugin/tokenRegistry';
+import tokenRegistry from 'temday-js/plugin/tokenRegistry';
 
 temday.extend(tokenRegistry);
 temday.addToken({

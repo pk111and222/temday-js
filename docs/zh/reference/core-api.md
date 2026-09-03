@@ -3,7 +3,7 @@
 ## 工厂
 
 ```ts
-import temday from 'temday';
+import temday from 'temday-js';
 
 const value = temday(input?);
 const unix = temday.unix(seconds);

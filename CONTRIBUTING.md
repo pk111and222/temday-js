@@ -1,4 +1,4 @@
-# Contributing to temday
+# Contributing to temday-js
 
 ## Local setup
 

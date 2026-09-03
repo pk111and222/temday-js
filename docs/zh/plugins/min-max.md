@@ -3,7 +3,7 @@
 提供 factory 级别的 `min()` 与 `max()`。
 
 ```ts
-import minMax from 'temday/plugin/minMax';
+import minMax from 'temday-js/plugin/minMax';
 
 temday.extend(minMax);
 temday.min('2026-08-31', '2026-08-01').format('YYYY-MM-DD'); // 2026-08-01

@@ -3,7 +3,7 @@
 让 factory 接受数组输入。
 
 ```ts
-import arraySupport from 'temday/plugin/arraySupport';
+import arraySupport from 'temday-js/plugin/arraySupport';
 
 temday.extend(arraySupport);
 temday([2026, 7, 31, 12, 34, 56, 789]);

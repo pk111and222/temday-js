@@ -5,7 +5,7 @@
 ## 月末安全加月
 
 ```ts
-import temday from 'temday';
+import temday from 'temday-js';
 
 const invoiceDate = temday('2024-01-31');
 const nextInvoice = invoiceDate.add(1, 'month');
@@ -17,8 +17,8 @@ nextInvoice.format('YYYY-MM-DD'); // 2024-02-29
 ## 多语言发布日期
 
 ```ts
-import temday from 'temday';
-import localeData from 'temday/plugin/localeData';
+import temday from 'temday-js';
+import localeData from 'temday-js/plugin/localeData';
 
 temday.extend(localeData, { locale: 'en-US' });
 const publishedAt = temday('2026-08-31');
@@ -32,7 +32,7 @@ publishedAt.locale('zh-CN').format('YYYY年MMMMDD日');
 ## 独立时区工厂
 
 ```ts
-import { createTemday } from 'temday/context';
+import { createTemday } from 'temday-js/context';
 
 const shanghai = createTemday({ timeZone: 'Asia/Shanghai' });
 const newYork = createTemday({ timeZone: 'America/New_York' });
@@ -44,8 +44,8 @@ newYork('2026-08-31T12:00').format('Z');  // -04:00
 ## 传统页面直接使用
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/temday@1.0.0/dist/umd/polyfill.umd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/temday@1.0.0/dist/umd/core.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/temday-js@1.0.0/dist/umd/polyfill.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/temday-js@1.0.0/dist/umd/core.umd.min.js"></script>
 <script>
   document.querySelector('#date').textContent = temday().format('YYYY-MM-DD');
 </script>

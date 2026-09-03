@@ -3,7 +3,7 @@
 ## Time from now {#from-now}
 
 ```ts
-import relativeTime from 'temday/plugin/relativeTime';
+import relativeTime from 'temday-js/plugin/relativeTime';
 
 temday.extend(relativeTime);
 
@@ -27,7 +27,7 @@ Relative text uses native `Intl.RelativeTimeFormat`. When `localeData` is instal
 ## Calendar time {#calendar-time}
 
 ```ts
-import calendar from 'temday/plugin/calendar';
+import calendar from 'temday-js/plugin/calendar';
 
 temday.extend(calendar);
 temday('2026-09-01').calendar('2026-08-31', {

@@ -3,8 +3,8 @@
 Format-string parsing is a separate plugin, so unused applications do not pay for a parser in the root bundle.
 
 ```ts
-import temday from 'temday';
-import customParseFormat from 'temday/plugin/customParseFormat';
+import temday from 'temday-js';
+import customParseFormat from 'temday-js/plugin/customParseFormat';
 
 temday.extend(customParseFormat);
 

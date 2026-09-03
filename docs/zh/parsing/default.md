@@ -3,12 +3,12 @@
 解析入口遵循一个原则：默认只接受原生时间值与 ISO 形状；格式字符串、对象与数组是按需插件。下面一段代码展示本章目录中的全部输入方式。
 
 ```ts
-import 'temday/polyfill';
-import temday from 'temday';
-import customParseFormat from 'temday/plugin/customParseFormat';
-import objectSupport from 'temday/plugin/objectSupport';
-import arraySupport from 'temday/plugin/arraySupport';
-import bigIntSupport from 'temday/plugin/bigIntSupport';
+import 'temday-js/polyfill';
+import temday from 'temday-js';
+import customParseFormat from 'temday-js/plugin/customParseFormat';
+import objectSupport from 'temday-js/plugin/objectSupport';
+import arraySupport from 'temday-js/plugin/arraySupport';
+import bigIntSupport from 'temday-js/plugin/bigIntSupport';
 
 temday.extend(customParseFormat).extend(objectSupport).extend(arraySupport).extend(bigIntSupport);
 
@@ -96,7 +96,7 @@ temday('2026-08-31T12:00:00+08:00').toISOString(); // 保留 +08:00 表示的 in
 需要 `customParseFormat` 插件。
 
 ```ts
-import customParseFormat from 'temday/plugin/customParseFormat';
+import customParseFormat from 'temday-js/plugin/customParseFormat';
 
 temday.extend(customParseFormat);
 temday('31/08/2026', 'DD/MM/YYYY').format('YYYY-MM-DD');
@@ -161,7 +161,7 @@ utc.valueOf() === shanghai.valueOf(); // true
 需要 `objectSupport` 插件。
 
 ```ts
-import objectSupport from 'temday/plugin/objectSupport';
+import objectSupport from 'temday-js/plugin/objectSupport';
 
 temday.extend(objectSupport);
 temday({ year: 2026, month: 7, date: 31, hour: 12 });
@@ -180,7 +180,7 @@ temday({ hour: 15, minute: 10 }); // 日期默认为当前日期
 需要 `arraySupport` 插件。
 
 ```ts
-import arraySupport from 'temday/plugin/arraySupport';
+import arraySupport from 'temday-js/plugin/arraySupport';
 
 temday.extend(arraySupport);
 temday([2026, 7, 31]); // 省略时间字段时为 00:00:00.000

@@ -3,7 +3,7 @@
 提供区域周序号与一年中的周数；可与 `localeData` 配合使用周起始日。
 
 ```ts
-import weekOfYear from 'temday/plugin/weekOfYear';
+import weekOfYear from 'temday-js/plugin/weekOfYear';
 
 temday.extend(weekOfYear);
 temday('2021-01-03').week(); // 2

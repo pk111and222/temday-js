@@ -1,5 +1,5 @@
 {
-  "name": "temday",
+  "name": "temday-js",
   "version": "1.0.0",
   "description": "Temporal- and Intl-native date library",
   "unpkg": "./dist/umd/core.umd.min.js",

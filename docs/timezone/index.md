@@ -3,7 +3,7 @@
 The root factory uses the host time zone. Create a context factory when a feature needs a fixed time zone.
 
 ```ts
-import { createTemday } from 'temday/context';
+import { createTemday } from 'temday-js/context';
 
 const newYork = createTemday({ timeZone: 'America/New_York' });
 const before = newYork('2024-03-10T01:30:00');

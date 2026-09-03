@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: temday
+  name: temday-js
   text: Date APIs for modern JavaScript.
   tagline: Immutable, Temporal-powered date APIs with Intl formatting and familiar Day.js-style methods.
   image:

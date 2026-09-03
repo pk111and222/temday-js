@@ -1,7 +1,7 @@
 import { appendFileSync, readdirSync } from 'node:fs';
 
 // Rslib's CJS output exposes an ESM namespace. temday-compatible CJS consumers
-// expect `require('temday')` itself to be the factory, while named exports stay
+// expect `require('temday-js')` itself to be the factory, while named exports stay
 // available as properties on that callable value.
 appendFileSync(
   new URL('../dist/index.cjs', import.meta.url),

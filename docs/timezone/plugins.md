@@ -1,8 +1,8 @@
 # UTC and IANA time zones
 
 ```ts
-import utc from 'temday/plugin/utc';
-import timezone from 'temday/plugin/timezone';
+import utc from 'temday-js/plugin/utc';
+import timezone from 'temday-js/plugin/timezone';
 
 temday.extend(utc).extend(timezone);
 ```
