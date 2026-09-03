@@ -24,3 +24,5 @@ hero:
     <div><span class="temday-proof-kicker">Day.js</span><strong>Familiar API style</strong></div>
   </div>
 </section>
+
+> About 80% of this project's code was written by GPT-5.6 Sol. It has completed multi-model collaborative validation and achieved 100% test coverage. If you are sensitive to or do not accept AI-generated code, please do not use it.

@@ -21,3 +21,5 @@ If Babel or the host already defines `globalThis.Temporal`, import only `temday`
 For isolated time-zone runtimes, use `createTemday({ timeZone })` from `temday-js/context`. The callable factory remains named `temday`; locale providers, named locale tokens, custom parsers, and plugins use separate entries.
 
 The package provides a compact core with independent entries for parsing, locale data, time zones, and other optional APIs. Rslib performs production minification during `pnpm build`.
+
+About 80% of this project's code was written by GPT-5.6 Sol. It has completed multi-model collaborative validation and achieved 100% test coverage. If you are sensitive to or do not accept AI-generated code, please do not use it.
